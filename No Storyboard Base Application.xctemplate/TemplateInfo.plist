@@ -8,7 +8,7 @@
 	<string>com.wujy.dt.unit.noStoryboardBaseApplication</string>
 	<key>Ancestors</key>
 	<array>
-		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+		<string>com.wujy.dt.unit.coreDataCocoaTouchApplication</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
@@ -34,25 +34,25 @@
 					</array>
 					<key>Definitions</key>
 					<dict>
- 						<key>AppDelegate.m</key>
+						<key>AppDelegate.m</key>
 						<dict>
-						    <key>Path</key>
-						    <string>code/objc/AppDelegate.m</string>
+							<key>Path</key>
+							<string>code/objc/AppDelegate.m</string>
 						</dict>
 						<key>AppDelegate.h</key>
 						<dict>
-						    <key>Path</key>
-						    <string>code/objc/AppDelegate.h</string>
+							<key>Path</key>
+							<string>code/objc/AppDelegate.h</string>
 						</dict>
 						<key>ViewController.m</key>
 						<dict>
-						    <key>Path</key>
-						    <string>code/objc/ViewController.m</string>
+							<key>Path</key>
+							<string>code/objc/ViewController.m</string>
 						</dict>
 						<key>ViewController.h</key>
 						<dict>
-						    <key>Path</key>
-						    <string>code/objc/ViewController.h</string>
+							<key>Path</key>
+							<string>code/objc/ViewController.h</string>
 						</dict>
 					</dict>
 				</dict>
@@ -65,15 +65,15 @@
 					</array>
 					<key>Definitions</key>
 					<dict>
- 						<key>AppDelegate.swift</key>
+						<key>AppDelegate.swift</key>
 						<dict>
-						    <key>Path</key>
-						    <string>code/swift/AppDelegate.swift</string>
+							<key>Path</key>
+							<string>code/swift/AppDelegate.swift</string>
 						</dict>
 						<key>ViewController.swift</key>
 						<dict>
-						    <key>Path</key>
-						    <string>code/swift/ViewController.swift</string>
+							<key>Path</key>
+							<string>code/swift/ViewController.swift</string>
 						</dict>
 					</dict>
 				</dict>

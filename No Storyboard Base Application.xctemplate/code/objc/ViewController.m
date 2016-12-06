@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupViews];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)setupViews {
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"template";
 }
 
 
