@@ -27,6 +27,7 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
+						<string>AppDelegate.m:imports:importHeader:ViewController.h</string>
 						<string>ViewController.h:comments</string>
 						<string>ViewController.h:imports:importCocoa</string>
 						<string>ViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
@@ -38,6 +39,15 @@
 						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
 						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string> self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+ ViewController *controller = [[ViewController alloc] init];
+
+ [self.window setRootViewController:controller];
+ [self.window makeKeyAndVisible];</string>
+					</dict>
 				</dict>
 				<key>Swift</key>
 				<dict>
@@ -51,6 +61,15 @@
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
 						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
 					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string> window = UIWindow(frame: UIScreen.mainScreen().bounds)
+ let controller:ViewController = ViewController.init()
+
+ window?.rootViewController = controller
+ window?.makeKeyAndVisible()</string>
+					</dict>
 				</dict>
 			</dict>
 		</dict>
