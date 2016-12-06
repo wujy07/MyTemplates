@@ -27,48 +27,54 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>AppDelegate.m:imports:importHeader:ViewController.h</string>
-						<string>ViewController.h:comments</string>
-						<string>ViewController.h:imports:importCocoa</string>
-						<string>ViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
-						<string>ViewController.m:comments</string>
-						<string>ViewController.m:imports:importHeader:ViewController.h</string>
-						<string>ViewController.m:extension</string>
-						<string>ViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
-						<string>ViewController.m:implementation:methods:viewDidLoad:super</string>
-						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
-						<string>ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>AppDelegate.h</string>
+						<string>AppDelegate.m</string>
+						<string>ViewController.h</string>
+						<string>ViewController.m</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>AppDelegate.m:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-						<string> self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
- ViewController *controller = [[ViewController alloc] init];
-
- [self.window setRootViewController:controller];
- [self.window makeKeyAndVisible];</string>
+ 						<key>AppDelegate.m</key>
+						<dict>
+						    <key>Path</key>
+						    <string>code/objc/AppDelegate.m</string>
+						</dict>
+						<key>AppDelegate.h</key>
+						<dict>
+						    <key>Path</key>
+						    <string>code/objc/AppDelegate.h</string>
+						</dict>
+						<key>ViewController.m</key>
+						<dict>
+						    <key>Path</key>
+						    <string>code/objc/ViewController.m</string>
+						</dict>
+						<key>ViewController.h</key>
+						<dict>
+						    <key>Path</key>
+						    <string>code/objc/ViewController.h</string>
+						</dict>
 					</dict>
 				</dict>
 				<key>Swift</key>
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>ViewController.swift:comments</string>
-						<string>ViewController.swift:imports:importCocoa</string>
-						<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
-						<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-						<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
-						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
-						<string>ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+						<string>AppDelegate.swift</string>
+						<string>ViewController.swift</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
-						<string> window = UIWindow(frame: UIScreen.mainScreen().bounds)
- let controller:ViewController = ViewController.init()
-
- window?.rootViewController = controller
- window?.makeKeyAndVisible()</string>
+ 						<key>AppDelegate.swift</key>
+						<dict>
+						    <key>Path</key>
+						    <string>code/swift/AppDelegate.swift</string>
+						</dict>
+						<key>ViewController.swift</key>
+						<dict>
+						    <key>Path</key>
+						    <string>code/swift/ViewController.swift</string>
+						</dict>
 					</dict>
 				</dict>
 			</dict>
