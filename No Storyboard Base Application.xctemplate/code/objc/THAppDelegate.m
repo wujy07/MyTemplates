@@ -1,24 +1,24 @@
 //
-//  AppDelegate.m
+//  THAppDelegate.m
 //  test4
 //
 //  Created by Junyan Wu on 16/12/6.
 //  Copyright © 2016年 THU. All rights reserved.
 //
 
-#import "AppDelegate.h"
-#import "ViewController.h"
+#import "THAppDelegate.h"
+#import "THViewController.h"
 
-@interface AppDelegate ()
+@interface THAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation THAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-    ViewController *vc = [[ViewController alloc] init];
+    THViewController *vc = [[THViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     [self.window setRootViewController:nav];
     [self.window makeKeyAndVisible];

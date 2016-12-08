@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  THViewController.m
 //  test4
 //
 //  Created by Junyan Wu on 16/12/6.
 //  Copyright © 2016年 THU. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "THViewController.h"
 
-@interface ViewController ()
+@interface THViewController ()
 
 @end
 
-@implementation ViewController
+@implementation THViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

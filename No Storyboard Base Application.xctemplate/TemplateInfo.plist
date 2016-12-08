@@ -18,11 +18,11 @@
 	<integer>1</integer>
 	<key>Project</key>
 	<dict>
-	    <key>SharedSettings</key>
-	    <dict>
-	        <key>IPHONEOS_DEPLOYMENT_TARGET</key>
-	        <string>8.0</string>
-	    </dict>
+		<key>SharedSettings</key>
+		<dict>
+			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+			<string>8.0</string>
+		</dict>
 	</dict>
 	<key>Options</key>
 	<array>
@@ -35,32 +35,32 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>AppDelegate.h</string>
-						<string>AppDelegate.m</string>
-						<string>ViewController.h</string>
-						<string>ViewController.m</string>
+						<string>THAppDelegate.h</string>
+						<string>THAppDelegate.m</string>
+						<string>THViewController.h</string>
+						<string>THViewController.m</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>AppDelegate.m</key>
+						<key>THAppDelegate.m</key>
 						<dict>
 							<key>Path</key>
-							<string>code/objc/AppDelegate.m</string>
+							<string>code/objc/THAppDelegate.m</string>
 						</dict>
-						<key>AppDelegate.h</key>
+						<key>THAppDelegate.h</key>
 						<dict>
 							<key>Path</key>
-							<string>code/objc/AppDelegate.h</string>
+							<string>code/objc/THAppDelegate.h</string>
 						</dict>
-						<key>ViewController.m</key>
+						<key>THViewController.m</key>
 						<dict>
 							<key>Path</key>
-							<string>code/objc/ViewController.m</string>
+							<string>code/objc/THViewController.m</string>
 						</dict>
-						<key>ViewController.h</key>
+						<key>THViewController.h</key>
 						<dict>
 							<key>Path</key>
-							<string>code/objc/ViewController.h</string>
+							<string>code/objc/THViewController.h</string>
 						</dict>
 					</dict>
 				</dict>

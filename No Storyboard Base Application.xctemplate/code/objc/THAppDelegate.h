@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  THAppDelegate.h
 //  test4
 //
 //  Created by Junyan Wu on 16/12/6.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface THAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end
